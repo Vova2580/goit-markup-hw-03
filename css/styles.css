@@ -45,7 +45,6 @@ margin-bottom: 0;
   font-size: 26px;
   line-height:calc(31 / 26);
   letter-spacing: 0.03em;
-  
 }
 .span-logo{
    color:var(--accent-text-color); 
@@ -106,7 +105,8 @@ color:var(--accent-text-color);
 
 /* hero */
 .hero{
-  background-color:var(--hero-footer-bg-color);
+  background-color:var(--hero-footer-bg-color); 
+  height:600px;
   margin-bottom: 94px;
 }
 
@@ -133,12 +133,12 @@ font-weight: 700;
 font-size: 16px;
 line-height:calc(30 / 16);
 
-display: inline-block;
-min-width: 216px;
+display: block;
+width: 216px;
 border:transparent;
 border-radius: 4px;
-margin-bottom: 200px;
-
+margin-right: auto;
+margin-left: auto;
 padding: 10px 32px;
 align-items:center;
 text-align:center;
@@ -156,6 +156,7 @@ text-align:center;
   padding-left:15px;
   padding-right:15px;
   margin: auto;
+
 }
 
 .section-title{
@@ -166,6 +167,7 @@ line-height: calc(42 / 36);
 letter-spacing: 0.03em;
 margin-top: 0;
 margin-bottom:50px;
+text-align: center;
 }
 
 .visually-hidden{
@@ -236,6 +238,7 @@ margin-bottom: 0;
 
 .footer{
 background-color:var(--hero-footer-bg-color);
+height: 252px;
 }
 
 .footer-logo{
@@ -261,6 +264,7 @@ font-style: normal;
 font-size: 14px;
 text-decoration: none;
 letter-spacing: 0.03em;
+display: inline-block;
 margin-bottom: 9px;
 }
 
@@ -275,19 +279,24 @@ font-style: normal;
 font-size:14px;
 letter-spacing: 0.03em;
 text-decoration: none;
+display: inline-block;
 }
+.footer-mail{
+  margin-bottom: 9px;
+}
+
+
 .footer-number:hover,
 .footer-number:focus{
  color:var(--accent-text-color);
 }
+
 .footer-mail:hover,
 .footer-mail:focus{
   color:var(--accent-text-color);
 }
 
-.footer-number ,.footer-mail{
-margin-bottom: 56px;
-}
+
 
 
 /* portfolio */
