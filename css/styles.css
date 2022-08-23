@@ -30,6 +30,10 @@ list-style: none;
 margin-top: 0;
 margin-bottom: 0;
 }
+.reset-padding-left{
+display: inline;
+padding-left: 0 auto;
+}
 
 /* header */
 
@@ -47,7 +51,7 @@ margin-bottom: 0;
   letter-spacing: 0.03em;
 }
 .span-logo{
-   color:var(--accent-text-color); 
+color:var(--accent-text-color); 
 }
 
 /* site nav */
@@ -64,6 +68,7 @@ font-size: 14px;
 line-height:calc(16 / 14);
 letter-spacing: 0.02em;
 }
+
 
 
 .site-nav .nav-link:hover,
@@ -97,6 +102,7 @@ color:var(--accent-text-color);
 .contact-phone:hover{
 color:var(--accent-text-color);
 }
+
 .contact-mail:focus,
 .contact-phone:focus{
   color: var(--accent-text-color);
@@ -105,9 +111,7 @@ color:var(--accent-text-color);
 
 /* hero */
 .hero{
-  background-color:var(--hero-footer-bg-color); 
-  height:600px;
-  margin-bottom: 94px;
+  background-color:var(--hero-footer-bg-color);
 }
 
 .hero-title{
@@ -119,10 +123,11 @@ line-height:calc(60 / 44);
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-
-margin-top: 0;
-margin-bottom: 30px;
-padding-top: 200px;
+margin: auto;
+padding-bottom: 30px;
+}
+.title-center{
+width:696px;
 }
 
 .button{
@@ -133,16 +138,15 @@ font-weight: 700;
 font-size: 16px;
 line-height:calc(30 / 16);
 
-display: block;
+display:block;
 width: 216px;
-border:transparent;
-border-radius: 4px;
-margin-right: auto;
-margin-left: auto;
+margin: auto;
 padding: 10px 32px;
 align-items:center;
 text-align:center;
 
+border:transparent;
+border-radius: 4px;
 }
 
 .button:hover,
@@ -152,11 +156,10 @@ text-align:center;
 
 /* section1 */
 .container{
-  width:1170px;
+  width:1200px;
   padding-left:15px;
   padding-right:15px;
-  margin: auto;
-
+  margin: 0 auto;
 }
 
 .section-title{
@@ -182,6 +185,9 @@ clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;
 }
+.features{
+padding-left:0;
+}
 
 .features-title{
 color: var(--primary-text-color);
@@ -190,9 +196,10 @@ font-size: 14px;
 line-height:calc(16 / 14);
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-top: 0;
+margin-top: 94px;
 margin-bottom: 0;
 padding-bottom: 10px;
+
 }
 
 .features-content{
@@ -203,14 +210,20 @@ letter-spacing: 0.03em;
 margin-top: 0;
 margin-bottom: 94px;
 }
+/* section2 */
+
+
+.pic{
+display:block;
+}
 
 /* section3 */
 .our-team {
   background-color: var(--secondary-bg-color);
 }
 
-.pic{
-margin-bottom: 50px;
+.team-title{
+margin-top: 188px;
 }
 
 .team-member{
@@ -312,7 +325,15 @@ font-weight: 500;
 font-size: 16px;
 line-height:calc(26 / 16);
 letter-spacing: 0.03em;
+
+display:block;
+width: 125px;
+padding: 6px 22px;
+text-align:center;
+border:transparent;
+border-radius: 4px;
 }
+
 .footer-logo{
   display: inline-block;
   margin-top: 60px;
