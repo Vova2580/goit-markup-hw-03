@@ -36,7 +36,7 @@ padding-left: 0;
 
 .header{
  color:var(--light-color);
-
+  border: 1px solid #ECECEC;
 }
 .logo {
   color:var(--black-logo-color);
@@ -177,6 +177,10 @@ border-radius: 4px;
 }
 
 /* section1 */
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .container{
   width:1200px;
   padding-left:15px;
@@ -229,7 +233,6 @@ font-size: 14px;
 line-height:calc(16 / 14);
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-top: 94px;
 margin-bottom: 0;
 padding-bottom: 10px;
 
@@ -241,7 +244,6 @@ font-size: 14px;
 line-height:calc(24 / 14);
 letter-spacing: 0.03em;
 margin-top: 0;
-margin-bottom: 94px;
 }
 /* section2 */
 .galery{
@@ -264,9 +266,6 @@ margin-bottom: 94px;
   margin-right: 30px;
 }
 
-.team-title{
-padding-top: 94px;
-}
 .team-member{
 color: var(--primary-text-color);
 font-weight: 500;
@@ -384,7 +383,6 @@ border-radius: 4px;
 .flex-portfolio-button{
   display: flex;
   justify-content:center;
-  margin-top: 94px;
   margin-bottom: 50px ;
 }
 /* .flex-portfolio-button:not(:last-child){
@@ -421,24 +419,65 @@ letter-spacing: 0.06em;
 
 margin-top: 0;
 margin-bottom: 4px;
+
+
+  
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #EEEEEE;
+
+  
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color:#EEEEEE;
+
+  
+  /* border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #EEEEEE; */
+
+  
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #EEEEEE;
+
+
 }
 
 .portfolio-content{
 font-size: 16px;
 line-height:calc(30 / 16);
 letter-spacing: 0.03em;
+
 margin-top: 0;
 margin-bottom: 0;
+
+/* border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #EEEEEE; */
+
+  
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color:#EEEEEE;
+
+  
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #EEEEEE;
+
+  
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #EEEEEE;
+
 }
 .flex-card{
   display: flex;
   flex-wrap: wrap;
   gap:30px;
 }
-.flex-card .item:nth-last-child(-n + 3){
-  padding-bottom: 94px;
-}
- 
+
  
 
 
