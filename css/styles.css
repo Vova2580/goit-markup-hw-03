@@ -67,19 +67,21 @@ color:var(--accent-text-color);
 .site-nav .nav-link{
 color: var(--primary-text-color);
 }
-.contact-list{
+
+
+/* .contact-list{
   display: flex;
   align-items: center;
   margin-left: auto;
-}
-
+} */
 .contact-list .item + .item{
   margin-left: 50px;
 }
+
+
 .main-nav{
   display: flex;
 }
-
 
 .nav-link{
 text-decoration: none;
@@ -122,7 +124,7 @@ color:var(--accent-text-color);
     letter-spacing: 0.02em;
 }
 
-.nav-list,.contact-list{
+.nav-list{
   padding-left: 0;
 }
 .contact-mail:hover,
@@ -135,6 +137,16 @@ color:var(--accent-text-color);
   color: var(--accent-text-color);
 }
 
+.contact-list{
+display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+margin-left: 344px;
+}
+
+.contact{
+display: flex;
+}
 
 /* hero */
 .hero{
@@ -253,6 +265,7 @@ margin: 0;
 /* section2 */
 .galery{
   display: flex;
+  padding-bottom: 94px;
 }
 
 .picg{
@@ -297,7 +310,7 @@ line-height:calc(19 / 16);
 text-align: center;
 letter-spacing: 0.03em;
 margin-top: 0;
-margin-bottom: 0;
+margin-bottom: 30px;
 }
 
 /* footer */
@@ -347,7 +360,7 @@ text-decoration: none;
 display: inline-block;
 }
 
-.footer-list .item{
+.footer-list .item:not(:last-child){
   margin-bottom: 9px;
 }
 
@@ -360,6 +373,9 @@ display: inline-block;
 .footer-mail:hover,
 .footer-mail:focus{
   color:var(--accent-text-color);
+}
+.contact{
+  align-items: center;
 }
 
 
@@ -380,12 +396,32 @@ line-height:calc(26 / 16);
 letter-spacing: 0.03em;
 
 display:block;
-width: 125px;
-
+margin-right: 8px;
+padding: 6px 22px;
 text-align:center;
 border:transparent;
 border-radius: 4px;
 }
+
+.portfolio-button :nth-child(1){
+  width: 73px;
+  margin-right: 8px;
+  padding:6px 25px;
+}
+.portfolio-button:nth-child(2){
+width: 125px;
+}
+
+.portfolio-button :nth-child(3){
+  width: 112px;
+}
+.portfolio-button:nth-child(4){
+width: 103px;
+}
+.portfolio-button :nth-child(5){
+  width: 130px;
+}
+
 
 
 .flex-portfolio-button{
@@ -432,10 +468,10 @@ margin-bottom: 0;
   flex-wrap: wrap;
   gap:30px;
 }
-.flex-portfolio-button .item{
+/* .flex-portfolio-button .item{
 margin-right: 8px;
 padding: 6px 22px;
-}
+} */
 .flex-portfolio-button .item:last-child{
 margin-right: 0;
 }
