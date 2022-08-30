@@ -141,7 +141,7 @@ color:var(--accent-text-color);
 display: flex;
 justify-content: flex-end;
 align-items: flex-start;
-margin-left: 344px;
+margin-left: auto;
 }
 
 .contact{
@@ -267,13 +267,15 @@ margin: 0;
 /* section2 */
 .galery{
   display: flex;
+  gap: 30px;
 }
 
 .picg{
-  margin-right: 30px;
   display: block;
   max-width: 100%;
 }
+
+
 /* section3 */
 .our-team {
   background-color: var(--secondary-bg-color);
@@ -507,10 +509,11 @@ margin-right: auto;
 .flex-card{
 display: flex;
 flex-wrap: wrap;
+gap: 30px;
 }
 .flex-card .item{
 width: calc((100% - 60px) / 3);
-margin-right: 30px ;
+margin-bottom: 0;
 }
 .flex-card .item:nth-child(3n){
 margin-right: 0;
